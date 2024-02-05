@@ -1,0 +1,156 @@
+body{
+    background-color: #efefe7;
+    align-self: center;
+}
+
+.container 
+{   
+    width: 800px;
+    height: 700px;
+    background-color: #efefe7;
+    padding: 30px;  
+    position: absolute;
+    top:60px;
+    left:300px; 
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+#tagline{
+    position: absolute;
+    top:35px;
+    font-size: 22px;
+    left:145px;
+    color: #999999;
+}
+
+#search-text{
+    position: absolute;
+    top: 35px;
+    left: 500px;
+    width: 300px;
+    height: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px; /* Adjust the border-radius for the desired curvature */
+    outline: none;
+    font-size: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.content-1
+{   
+    width: 530px;
+    /* max-height: 550px; */
+    background-color: white;
+    padding: 30px;  
+    position: absolute;
+    top:90px;
+    left:260px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.content
+{   
+    width: 530px;
+    height: 550px;
+    background-color: white;
+    padding: 30px;  
+    position: absolute;
+    top:90px;
+    left:260px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.content-1 h1,.content h1{
+    top:5px;
+    position: absolute;
+    font-weight: normal;
+    color: #4e443c;
+    text-rendering: optimizelegibility;
+}
+
+.top-left{
+    width: 150px;
+    height: 100px;
+    background-color: #efefe7; 
+    position: absolute;
+    top:97px;
+    left:10px; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+nav ul li {
+    line-height: 1.5;
+}
+
+.bottom-left{
+    width: 190px;
+    height: 140px;
+    background-color: #e4e4d9; 
+    position: absolute;
+    top:250px;
+    padding-left: 10px;
+    left:10px; 
+}
+.content-left{
+    width: 288px;
+    height: 140px;
+    position: absolute;
+    top:80px;
+    padding-left: 20px;
+    left:10px; 
+}
+
+.icons{
+    background-color: #e9e8e0; 
+    line-height: 30px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.content-bottom{
+    top:220px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    background-color: #e9e8e0;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.content-last{
+    top:400px;
+    position: absolute;
+}
+
+.content-bottom h2,.content-last h2,code,h2{
+    color:#f14e32;
+}
+
+a {
+    text-decoration: none;
+    color: #0388a6; 
+  }
+.auto-height {
+    height: auto;
+  }
+
+
+.para{
+    font-size: 14px; 
+}
+
+/* INDEX_2 CSS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+
+
+
+
+
