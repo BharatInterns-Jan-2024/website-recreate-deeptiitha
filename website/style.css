@@ -1,6 +1,8 @@
 body{
     background-color: #efefe7;
     align-self: center;
+     font-family: Roboto Slab, DejaVu Serif, Georgia, Times New Roman,;
+
 }
 
 .container 
@@ -147,6 +149,48 @@ a {
 }
 
 /* INDEX_2 CSS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.circles-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .circle-1 {
+    background-color: #f14e32;
+    border-radius: 50%;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-right:3px;
+    width: 70px; 
+    height: 70px;
+  }
+  .circle {
+    background-color: #efefe7;
+    border-radius: 50%;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-right:3px;
+    width: 70px; 
+    height: 70px;
+  }
+  .circles-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+
+  
+
+
+
+
+
+
 
 
 
